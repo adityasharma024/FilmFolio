@@ -33,7 +33,7 @@ const Cards = () => {
           <Link key={i} to={`/detail/${e.id}`} className="card-link">
             <div className="card-container">
               <div className="card font-medium shadow-lg p-2 hover:-translate-y-3 cursor-pointer mt-6 transition-all duration-500">
-                <img className="h-60 md:h-72 w-full object-cover" src={e.image} alt={e.title} />
+                <img className="md:h-72 w-full object-cover" src={e.image} alt={e.title} />
                 <h1>{e.title}</h1>
                 <h1 className="flex items-center">
                   <span className="text-gray-500 mr-1">Rating:</span>
