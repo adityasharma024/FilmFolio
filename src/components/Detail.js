@@ -39,7 +39,7 @@ const Detail = () => {
             <ReactStars
             size={20}
             half={true}
-            value={data.rating/data}
+            value={data.rating/data.rated}
             edit={false}/>
 
            
